@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map-canvas, #map_canvas {
+  height: 100%;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map-canvas, #map_canvas {
+    height: 650px;
+  }
+}
+
+#panel {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -128px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px; 
+  border-radius: 3px;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  -o-border-radius: 3px; 
+}
+#back { 
+  height: 104px; 
+  width: 104px; 
+  position: fixed; 
+  top: 40%; 
+  z-index: 999;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg); 
+  -o-transform: rotate(-90deg); 
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#back a { 
+  display: block; 
+  background: #13aa93; 
+  height: 15px; 
+  width: 45px; 
+  padding: 8px 16px;
+  color: #fff; 
+  font-family: arial, sans-serif; 
+  font-size: 17px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  border-radius: 3px;
+  transform: rotate(-90deg);
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  -o-border-radius: 3px; 
+}
+
+#back a:hover { 
+  background: #fff; 
+  color: #13aa93; 
+}

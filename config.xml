@@ -49,7 +49,7 @@
 	<gap:splash src="splash.png" gap:platform="blackberry" />
 	<gap:splash src="splash.jpg" gap:platform="winphone" />
 	
-	<preference name="splash-screen-duration" value="3000"/>
+	<preference name="splash-screen-duration" value="5000"/>
 
 	<access origin="*" subdomains="true" />
 
